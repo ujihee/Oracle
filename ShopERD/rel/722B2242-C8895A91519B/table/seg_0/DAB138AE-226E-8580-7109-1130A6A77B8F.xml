@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DAB138AE-226E-8580-7109-1130A6A77B8F" name="Customer">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:52:53 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="custId" id="E2071DFD-F54F-EE29-02AF-EEDEBF765A50">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:56:11 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="FC16152B-454B-ADF1-CBF4-E4D938B2A0AE">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:56:11 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hp" id="27F04215-ED9D-C754-370E-98648497A6DB">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:56:11 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addr" id="85B684EE-B8F7-707A-5B67-7BDA3A0D366E">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:56:11 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rdate" id="CF5B4B45-10D7-E8E7-72FC-546B3F72B232">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:56:11 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2157848C-CA8A-33D5-85B9-70E637BE0E30" name="Customer_PK">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 00:56:11 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2071DFD-F54F-EE29-02AF-EEDEBF765A50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59DF8882-933E-EF2F-E8DF-D405334C8980" name="Customer__UN">
+<createdBy>GGG</createdBy>
+<createdTime>2025-08-11 01:05:14 UTC</createdTime>
+<ownerDesignName>ShopERD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<deprecated>true</deprecated>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27F04215-ED9D-C754-370E-98648497A6DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
